@@ -10,4 +10,4 @@ function solution(str){
   return array_str
 }
 
-solution("abcdefg")
+solution("abcdefgh")
