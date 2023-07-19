@@ -17,3 +17,13 @@ def recursion_gcd(arr):
         return list(map(lambda x: int(x/int_gcd), arr))
 
 mixed_fraction('42/9')
+
+
+actualString = "Reverse this"
+reversedString = ""
+length = length of actualString
+for i in range 1 to length:
+    reversedString += actualString[i]
+
+for i in range 0 to length -1:
+    print reversedString[i]
