@@ -9,8 +9,11 @@ matrix = Array.new(rows) { Array.new(columns, value) }
 # Print the matrix
 matrix.each { |row| puts row.join(" ") }
 p matrix
+row = 5
+column = 5
+matrix[row][column] = 1
 
-matrix[2][5] = "1"
+
 p matrix
 end
 
