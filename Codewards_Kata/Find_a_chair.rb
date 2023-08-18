@@ -15,7 +15,6 @@ def meeting(rooms, number)
       free_chairs[-1] = a
       return free_chairs
     end
-    p free_chairs
   end
   return "Not enough!" if free_chairs.sum < number
 

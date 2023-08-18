@@ -13,7 +13,7 @@ class Allergies
   def initialize(score)
     raise "wrong type: integer required" unless score.is_a?(Integer)
     @list_allergies = []
-    return [] if score <= 0
+    return if score.nil? || score <= 0
     allergy_array = [128, 64, 32, 16, 8, 4, 2, 1]
     array = []
     if score >= 256
