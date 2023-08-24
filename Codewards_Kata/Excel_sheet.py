@@ -17,9 +17,8 @@ def title_to_number(title):
 
 
 title_to_number('BA')
-
-# >>> seasons = ['Spring', 'Summer', 'Fall', 'Winter']
-# >>> list(enumerate(seasons))
-# [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
-# >>> list(enumerate(seasons, start=1))
-# [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+# test.assert_equals(title_to_number('A'),1)
+# test.assert_equals(title_to_number('Z'),26)
+# test.assert_equals(title_to_number('AA'),27)
+# test.assert_equals(title_to_number('AZ'),52)
+# test.assert_equals(title_to_number('BA'),53)
