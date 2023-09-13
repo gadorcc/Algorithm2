@@ -7,6 +7,6 @@ int main()
   double height = 4.4;
   double area = width * height;
   double perimeter = (width + height) * 2;
-  printf("The area is:%.2f", area);
+  printf("The area is: %.2f", area);
   return 0;
 }
