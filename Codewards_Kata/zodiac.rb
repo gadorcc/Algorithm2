@@ -3,7 +3,6 @@ def solve(s)
   vocals = ["a","e","i","o","u"]
   array = []
   sum = 0
-  p alpha
   s.split("").map do |letter|
     if vocals.include?(letter)
       array << sum

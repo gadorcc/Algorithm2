@@ -3,9 +3,7 @@ def order(words)
   result = []
   (1..array_words.count).each do |num|
     array_words.each do |word|
-      if word.include?(num.to_s)
-        result << word
-      end
+      result << word if word.include?(num.to_s)
     end
   end
   p result.join(" ")
