@@ -1,6 +1,6 @@
 def nbMonths(startPriceOld, startPriceNew, savingperMonth, percentLossByMonth)
   n=0
-  return [n,((startPriceOld + savingperMonth) - startPriceNew).to_i ] if startPriceNew < (startPriceOld + savingperMonth)
+  return [n,(startPriceOld  - startPriceNew).to_i ] if startPriceNew < (startPriceOld)
   n = 1
   while startPriceNew > (startPriceOld + savingperMonth)
 
